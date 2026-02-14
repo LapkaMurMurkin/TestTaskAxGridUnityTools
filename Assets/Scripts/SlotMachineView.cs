@@ -13,9 +13,9 @@ namespace AxGridUnityTools_TestTask
     {
         [SerializeField] private UIButtonDataBind _startButton;
         [SerializeField] private UIButtonDataBind _stopButton;
+        [SerializeField] private List<RectTransform> _slotItems;
         [SerializeField] private List<ParticleSystem> _particles;
 
-        [SerializeField] private List<RectTransform> _slotItems;
         [SerializeField] private float _itemSize;
         [SerializeField] private float _maxSpeed;
         [SerializeField] private float _accelerationTime;
